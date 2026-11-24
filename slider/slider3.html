@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bottoms | Clicks to Closet</title>
+	<meta name="description" content="Browse bottoms at Clicks to Closet.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<header class="brand-header">
+		<a class="brand-home" href="../project1.html" aria-label="Clicks to Closet home">
+			<img class="brand-logo" src="../images/logo-sans-hanger.png" alt="Clicks to Closet">
+		</a>
+	</header>
+
+	<main id="page">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<a href="../project1.html">Shop</a><span aria-hidden="true">/</span><span>Bottoms</span>
+		</nav>
+
+		<section class="product-layout" aria-label="Product details">
+			<div class="gallery-column">
+				<div id="container" class="container" aria-label="Product images">
+					<div class="image_wrapper">
+						<img id="pic1" src="images/bot1.jpg" alt="Everyday Jeans, view 1">
+						<img id="pic2" src="images/bot2.jpg" alt="Mini Skirt, view 1">
+						<img id="pic3" src="images/bot3.jpg" alt="Denim Shorts, view 1">
+						<img id="pic4" src="images/bot4.jpg" alt="Midi Skirt, view 1">
+						<img id="pic5" src="images/bot5.jpg" alt="Relaxed Trousers, view 1">
+						<img id="pic6" src="images/bot6.jpg" alt="Yoga Pants, view 1">
+					</div>
+					<button class="gallery-arrow prev" type="button" aria-label="Previous product image">‹</button>
+					<button class="gallery-arrow next" type="button" aria-label="Next product image">›</button>
+				</div>
+
+				<ul class="nav" aria-label="Choose product image">
+					<li class="selected"><button class="thumbnav" type="button" data-index="0" aria-label="View image 1" aria-current="true"><img src="images/thumbs/bot1.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="1" aria-label="View image 2"><img src="images/thumbs/bot2.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="2" aria-label="View image 3"><img src="images/thumbs/bot3.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="3" aria-label="View image 4"><img src="images/thumbs/bot4.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="4" aria-label="View image 5"><img src="images/thumbs/bot5.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="5" aria-label="View image 6"><img src="images/thumbs/bot6.jpg" alt=""></button></li>
+				</ul>
+			</div>
+
+			<article class="product-info" id="productDetails" aria-live="polite">
+				<p class="product-kicker">Clicks to Closet <span aria-hidden="true">/</span> Bottoms</p>
+				<h1 class="product-name" id="productName">Everyday Jeans</h1>
+				<p class="product-price" id="productPrice">$54.00</p>
+				<p class="product-desc" id="productDesc">An everyday wardrobe staple with an easy fit that pairs effortlessly with your favorite tops and layers.</p>
+
+				<fieldset class="size-picker">
+					<legend>Choose a size</legend>
+					<div class="size-options">
+						<button type="button" class="size-btn" aria-pressed="false">XS</button>
+						<button type="button" class="size-btn" aria-pressed="false">S</button>
+						<button type="button" class="size-btn" aria-pressed="false">M</button>
+						<button type="button" class="size-btn" aria-pressed="false">L</button>
+						<button type="button" class="size-btn" aria-pressed="false">XL</button>
+					</div>
+				</fieldset>
+				<p class="size-message" id="sizeMessage" role="status" hidden>Please choose a size.</p>
+				<button type="button" class="add-btn" id="addBtn">Add to bag</button>
+				<p class="product-note">A piece you saved, ready for your closet.</p>
+			</article>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="footer-brand" href="../project1.html" aria-label="Clicks to Closet home">
+			<img class="footer-logo" src="../images/logo.png" alt="Clicks to Closet">
+		</a>
+		<address class="footer-info">
+			<p>1234 Store Street<br>New York, NY 10012</p>
+			<p><a href="mailto:clickstocloset@mail.com">clickstocloset@mail.com</a></p>
+		</address>
+		<nav class="footer-social" aria-label="Social media">
+			<a href="#" aria-label="Clicks to Closet on Instagram">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.8" fill="currentColor" stroke="none"/></svg>
+			</a>
+			<a href="#" aria-label="Clicks to Closet on Pinterest">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M10.2 20.2L12.2 11.2M9.6 12.4C8.7 9.6 10.4 7.4 12.7 7.4C14.7 7.4 15.8 8.8 15.8 10.4C15.8 12.6 14.5 14.4 12.8 14.4C11.9 14.4 11.3 13.9 11.5 13"/></svg>
+			</a>
+		</nav>
+		<p class="footer-copy">&copy; 2026 Clicks to Closet. All rights reserved.</p>
+	</footer>
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script>
+		$(function(){
+			var counter = 0;
+			var products = [
+				{ name: "Everyday Jeans", price: "$54.00", desc: "An everyday wardrobe staple with an easy fit that pairs effortlessly with your favorite tops and layers." },
+				{ name: "Mini Skirt", price: "$68.00", desc: "A versatile mini skirt with an easy-to-style silhouette. Pair it with a tucked-in tee for everyday wear or a blouse for a more polished look." },
+				{ name: "Denim Shorts", price: "$38.00", desc: "An easy warm-weather staple that pairs well with tees, tanks, and relaxed layers." },
+				{ name: "Midi Skirt", price: "$48.00", desc: "A versatile skirt that pairs with simple basics or can be dressed up for an evening out." },
+				{ name: "Relaxed Trousers", price: "$62.00", desc: "A comfortable, relaxed-fit trouser for everyday styling, from casual looks to more polished outfits." },
+				{ name: "Yoga Pants", price: "$58.00", desc: "A yoga-inspired style with a laid-back feel, easy to pair with fitted workout tops and casual layers." }
+			];
+			var $images = $(".image_wrapper img");
+			var $thumbs = $(".thumbnav");
+
+			function positionImages(animate){
+				var width = $(".image_wrapper").innerWidth();
+				$images.each(function(index){
+					var left = (index - counter) * width;
+					if (animate) $(this).stop(true).animate({ left: left }, 220);
+					else $(this).css("left", left);
+				});
+			}
+
+			function showProduct(index){
+				counter = (index + products.length) % products.length;
+				var product = products[counter];
+				$("#productDetails").stop(true, true).css("opacity", 0.55);
+				$("#productName").text(product.name);
+				$("#productPrice").text(product.price);
+				$("#productDesc").text(product.desc);
+				$("#productDetails").animate({ opacity: 1 }, 180);
+				$thumbs.attr("aria-current", "false").closest("li").removeClass("selected");
+				$thumbs.eq(counter).attr("aria-current", "true").closest("li").addClass("selected");
+				positionImages(true);
+				$("#sizeMessage").prop("hidden", true);
+				$("#addBtn").text("Add to bag");
+			}
+
+			$thumbs.on("click", function(){ showProduct(Number($(this).data("index"))); });
+			$(".gallery-arrow.next").on("click", function(){ showProduct(counter + 1); });
+			$(".gallery-arrow.prev").on("click", function(){ showProduct(counter - 1); });
+			$(window).on("resize", function(){ positionImages(false); });
+
+			$(".size-btn").on("click", function(){
+				$(".size-btn").removeClass("selected").attr("aria-pressed", "false");
+				$(this).addClass("selected").attr("aria-pressed", "true");
+				$("#sizeMessage").prop("hidden", true);
+			});
+
+			$("#addBtn").on("click", function(){
+				if (!$('.size-btn[aria-pressed="true"]').length){
+					$("#sizeMessage").prop("hidden", false);
+					$(".size-picker").trigger("focus");
+					return;
+				}
+				var $button = $(this);
+				$button.text("Added to bag");
+				setTimeout(function(){ $button.text("Add to bag"); }, 1800);
+			});
+
+			positionImages(false);
+		});
+	</script>
+</body>
+</html>

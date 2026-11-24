@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tops| Clicks to Closet</title>
+	<meta name="description" content="Shop tops at Clicks to Closet.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<header class="brand-header">
+		<a class="brand-home" href="../project1.html" aria-label="Clicks to Closet home">
+			<img class="brand-logo" src="../images/logo-sans-hanger.png" alt="Clicks to Closet">
+		</a>
+	</header>
+
+	<main id="page">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<a href="../project1.html">Shop</a><span aria-hidden="true">/</span><span>Tops</span>
+		</nav>
+
+		<section class="product-layout" aria-label="Product details">
+			<div class="gallery-column">
+				<div id="container" class="container" aria-label="Product images">
+					<div class="image_wrapper">
+						<img id="pic1" src="images/top1.jpg" alt="Ribbed Knit Tank, view 1">
+						<img id="pic2" src="images/top2.jpg" alt="Satin Bow Blouse, view 1">
+						<img id="pic3" src="images/top3.jpg" alt="Cropped Linen Tee, view 1">
+						<img id="pic4" src="images/top4.jpg" alt="Puff Sleeve Top, view 1">
+						<img id="pic5" src="images/top5.jpg" alt="Off-Shoulder Knit, view 1">
+						<img id="pic6" src="images/top6.jpg" alt="Classic Button-Down, view 1">
+					</div>
+					<button class="gallery-arrow prev" type="button" aria-label="Previous product image">‹</button>
+					<button class="gallery-arrow next" type="button" aria-label="Next product image">›</button>
+				</div>
+
+				<ul class="nav" aria-label="Choose product image">
+					<li class="selected"><button class="thumbnav" type="button" data-index="0" aria-label="View image 1" aria-current="true"><img src="images/thumbs/top1.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="1" aria-label="View image 2"><img src="images/thumbs/top2.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="2" aria-label="View image 3"><img src="images/thumbs/top3.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="3" aria-label="View image 4"><img src="images/thumbs/top4.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="4" aria-label="View image 5"><img src="images/thumbs/top5.jpg" alt=""></button></li>
+					<li><button class="thumbnav" type="button" data-index="5" aria-label="View image 6"><img src="images/thumbs/top6.jpg" alt=""></button></li>
+				</ul>
+			</div>
+
+			<article class="product-info" id="productDetails" aria-live="polite">
+				<p class="product-kicker">Clicks to Closet <span aria-hidden="true">/</span> Tops</p>
+				<h1 class="product-name" id="productName">Ribbed Knit Tank</h1>
+				<p class="product-price" id="productPrice">$24.00</p>
+				<p class="product-desc" id="productDesc">A stretchy ribbed tank in a soft cotton blend. Fitted through the body with a scooped neckline, so it layers easily under a cardigan or works on its own.</p>
+
+				<fieldset class="size-picker">
+					<legend>Choose a size</legend>
+					<div class="size-options">
+						<button type="button" class="size-btn" aria-pressed="false">XS</button>
+						<button type="button" class="size-btn" aria-pressed="false">S</button>
+						<button type="button" class="size-btn" aria-pressed="false">M</button>
+						<button type="button" class="size-btn" aria-pressed="false">L</button>
+						<button type="button" class="size-btn" aria-pressed="false">XL</button>
+					</div>
+				</fieldset>
+				<p class="size-message" id="sizeMessage" role="status" hidden>Please choose a size.</p>
+				<button type="button" class="add-btn" id="addBtn">Add to bag</button>
+				<p class="product-note">A piece you saved, ready for your closet.</p>
+			</article>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="footer-brand" href="../project1.html" aria-label="Clicks to Closet home">
+			<img class="footer-logo" src="../images/logo.png" alt="Clicks to Closet">
+		</a>
+		<address class="footer-info">
+			<p>1234 Store Street<br>New York, NY 10012</p>
+			<p><a href="mailto:clickstocloset@mail.com">clickstocloset@mail.com</a></p>
+		</address>
+		<nav class="footer-social" aria-label="Social media">
+			<a href="#" aria-label="Clicks to Closet on Instagram">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.8" fill="currentColor" stroke="none"/></svg>
+			</a>
+			<a href="#" aria-label="Clicks to Closet on Pinterest">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M10.2 20.2L12.2 11.2M9.6 12.4C8.7 9.6 10.4 7.4 12.7 7.4C14.7 7.4 15.8 8.8 15.8 10.4C15.8 12.6 14.5 14.4 12.8 14.4C11.9 14.4 11.3 13.9 11.5 13"/></svg>
+			</a>
+		</nav>
+		<p class="footer-copy">&copy; 2026 Clicks to Closet. All rights reserved.</p>
+	</footer>
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script>
+		$(function(){
+			var counter = 0;
+			var products = [
+				{ name: "Ribbed Knit Tank", price: "$24.00", desc: "A stretchy ribbed tank in a soft cotton blend. Fitted through the body with a scooped neckline, so it layers easily under a cardigan or works on its own." },
+				{ name: "Satin Bow Blouse", price: "$38.00", desc: "A fluid satin blouse with a soft tie at the collar. Relaxed fit, delicate sheen, and just dressy enough for dinner without trying too hard." },
+				{ name: "Cropped Linen Tee", price: "$29.00", desc: "A boxy cropped tee in breathable linen. Lightweight and a little textured, it sits right at the waistband of your favorite high-rise jeans." },
+				{ name: "Puff Sleeve Top", price: "$34.00", desc: "A romantic top with gathered puff sleeves and a square neckline. The stretch back panel keeps it comfortable from morning to night." },
+				{ name: "Off-Shoulder Knit", price: "$42.00", desc: "A cozy knit with an easy off-the-shoulder neckline. Soft, slightly oversized, and made to be paired with a slip skirt or wide-leg trousers." },
+				{ name: "Classic Button-Down", price: "$45.00", desc: "A crisp cotton button-down with a clean collar and a slightly relaxed cut. Wear it buttoned up, tied at the waist, or open over a tank." }
+			];
+			var $images = $(".image_wrapper img");
+			var $thumbs = $(".thumbnav");
+
+			function positionImages(animate){
+				var width = $(".image_wrapper").innerWidth();
+				$images.each(function(index){
+					var left = (index - counter) * width;
+					if (animate) $(this).stop(true).animate({ left: left }, 220);
+					else $(this).css("left", left);
+				});
+			}
+
+			function showProduct(index){
+				counter = (index + products.length) % products.length;
+				var product = products[counter];
+				$("#productDetails").stop(true, true).css("opacity", 0.55);
+				$("#productName").text(product.name);
+				$("#productPrice").text(product.price);
+				$("#productDesc").text(product.desc);
+				$("#productDetails").animate({ opacity: 1 }, 180);
+				$thumbs.attr("aria-current", "false").closest("li").removeClass("selected");
+				$thumbs.eq(counter).attr("aria-current", "true").closest("li").addClass("selected");
+				positionImages(true);
+				$("#sizeMessage").prop("hidden", true);
+				$("#addBtn").text("Add to bag");
+			}
+
+			$thumbs.on("click", function(){ showProduct(Number($(this).data("index"))); });
+			$(".gallery-arrow.next").on("click", function(){ showProduct(counter + 1); });
+			$(".gallery-arrow.prev").on("click", function(){ showProduct(counter - 1); });
+			$(window).on("resize", function(){ positionImages(false); });
+
+			$(".size-btn").on("click", function(){
+				$(".size-btn").removeClass("selected").attr("aria-pressed", "false");
+				$(this).addClass("selected").attr("aria-pressed", "true");
+				$("#sizeMessage").prop("hidden", true);
+			});
+
+			$("#addBtn").on("click", function(){
+				if (!$('.size-btn[aria-pressed="true"]').length){
+					$("#sizeMessage").prop("hidden", false);
+					$(".size-picker").trigger("focus");
+					return;
+				}
+				var $button = $(this);
+				$button.text("Added to bag");
+				setTimeout(function(){ $button.text("Add to bag"); }, 1800);
+			});
+
+			positionImages(false);
+		});
+	</script>
+</body>
+</html>
